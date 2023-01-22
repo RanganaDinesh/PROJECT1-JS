@@ -1,0 +1,293 @@
+body{
+    background-color: #3D087B;
+}
+.clock1{
+    height: 65px;
+    margin: 30px 200px 10px 100px;
+}
+.shadow{
+    
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.6;
+    width: 400px;
+    height: 80px;
+    margin-left: 830px;
+    margin-top: -65px;
+    z-index: -2;
+    
+}
+
+
+
+.shadow1{
+    
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.2;
+    width: 300px;
+    height: 80px;
+    margin-left: 880px;
+    margin-top: -65px;
+    z-index: -3;
+}
+.TTT{
+    padding: 11px;
+    margin: 7px;
+   background-image: url(./Assessts/timeline.svg);
+   font: normal  normal 23px/38px Barlow;
+    letter-spacing: 0px;
+    color: #5F0089;
+    
+   
+}
+#hrs{
+    font-size: 28px;
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    }
+#mint{
+    font-weight: 1px;
+    font-size: 28px;
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+#ten{
+    font-size: 36px;
+    font-family:monospace;
+    font-weight: lighter;
+   
+   
+}
+#sec{
+    font-size: 28px;
+    margin-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.set{        
+    color: #3D087B;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    opacity: 0.8;
+    
+}
+#option1{
+    
+    margin:20px 17px 10px 110px;
+    padding: 10px;
+    width: 200px;
+    font-size: 12px;
+    color: #3D087B;
+    border: 1px solid #3D087B;
+    border-radius: 5px;
+}
+#option2{
+    
+    margin:20px 17px 10px 130px;
+    padding: 10px;
+    width: 200px;
+    font-size: 12px;
+    color: #3D087B;
+    border: 1px solid #3D087B;
+    border-radius: 5px;
+}
+#option3{
+    
+    margin:10px 17px 10px 140px;
+    padding: 10px;
+    width: 200px;
+    font-size: 12px;
+    color: #3D087B;
+    border: 1px solid #3D087B;
+    border-radius: 5px;
+}
+#option4{
+    
+    margin:10px 17px 10px 130px;
+    padding: 10px;
+    width: 200px;
+    font-size: 12px;
+    color: #3D087B;
+    border: 1px solid #3D087B;
+    border-radius: 5px;
+}
+#text2{
+background-color: #8A11BF;
+border-radius: 5px;
+width: 350px;
+margin: 0px 7px 0px 7px;
+}
+.text1{
+   margin-top: -7px;
+   margin-bottom: 10px;
+    width: 650px;
+    height: 75px;
+border-radius: 10px;
+background-color: #8A11BF;
+    
+}
+h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    font-size: 22px;
+    padding: 30px 0px 30px 30px;
+    letter-spacing: 3px;
+}
+.greet1{
+   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    font-size: 25px;
+    padding: 34px 0px 30px 30px;
+    
+    color: #5F0089;
+    width: 520px;
+    height: 45px;
+    border: 1px solid var(--unnamed-color-ededed);
+    border: 1px solid #EDEDED;
+    border-radius: 10px; 
+    margin: 10px 10px 10px 0px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+
+.butn{
+   
+    width: 275px;
+    height: 45px;
+    background-image: linear-gradient(to right,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+    opacity: 1;
+    border-radius: 4px;
+    border: #8d30f7 1px solid;
+    color: #FFFFFF;
+    font-size: 19px;
+}
+.butn:hover{
+   font-size: 0px;
+    background-image: linear-gradient(to left,#6E54EC,#CB52F8,#FC5EFF,#F1A7C5);
+}
+.butn1:hover:after{
+  
+  content: attr(data-hover);
+  font-size: 20px;
+}
+.open{
+    background-image: url(./Assessts/Component\ 30\ –\ 1.svg);
+}
+.closed{
+    background-image: url(./Assessts/Component\ 31\ –\ 1.svg);
+}
+.even{
+    background-image: url(./Assessts/lunch_time.svg);
+}
+.night
+{
+    background-image: url(./Assessts/Component\ 32\ –\ 1.svg);
+}
+
+
+
+
+
+
+
+    
+.box3{
+    display: flex;
+    
+}
+.line{
+    margin-left: 30px;
+    font-size: 35px;
+    color:#EDEDED;
+}
+.wake{
+    width: 30px;
+    height: 30px;
+    margin: 10px 40px 0px 18px;
+}
+.box2{
+    margin: -40px 10px 10px 100px;
+    width: 650px;
+    height: 370px;
+    border-radius: 5px;
+    border-color: #EDEDED;
+    background-color: #FFFFFF;
+}
+#box22{
+    margin: 10px 10px 10px 5px;
+    width: 550px;
+    height: 350px;
+    border-radius: 5px;
+    border-color: #EDEDED;
+    background-color: #FFFFFF;
+    color: #3D087B;
+}
+.box{
+    height: 100px ;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: flex;
+    opacity: 5px;
+    z-index: 3;
+    padding: 15px;
+   
+}
+.hhh{
+    padding: 15px;
+}
+.hhh1{
+    padding: 15px;
+    
+}
+.TTT2{
+    background-image:url(./Assessts/AM_svg.svg);
+    padding: 21px 20px 20px 20px;
+    border-radius: 5px ;
+    margin: 7px 5px 4px 10px;
+ 
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    font-size: 30px;
+   
+}
+.rdh{
+    display: flex;
+}
+.time{
+    padding-left: 25px;
+    padding-top: 25px;
+    color: #3D087B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#text2{
+    border-radius: 10px;
+    padding: 15px 25px 15px 35px;
+    color:#3D087B;
+    line-height: 15px;
+    margin: 0px 7px 0px 7px;
+    letter-spacing: 0.5px;
+}
+
+
+
+.dis{
+    display: flex;
+}
+.dis1{
+    display: flex;
+    margin-left:35PX;
+}
+.dot{
+    color:#3D087B ;
+    margin-top: 25px;
+    font-size: 30px;
+}
